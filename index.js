@@ -1,5 +1,6 @@
 const todoSequelize = require("./src/database/setup/database");
 const app = require("./src/server");
+const serverless = require("serverless-http");
 
 // Zugriff auf Umgebungsvariablen
 // const { PORT } = process.env;
